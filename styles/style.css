@@ -1,8 +1,4 @@
 * {
-  /* Fuente de Google Fonts */
-  font-family: "Notable", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   /* Css Inicial para todas las páginas */
   margin: 0;
   padding: 0;
@@ -16,55 +12,94 @@ body {
 /* Caja del header */
 header {
   text-align: center;
-  height: 80px;
+  height: 8%;
   background-color: black;
   color: white;
   overflow: hidden;
+  /* Fuente de Google Fonts */
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 /* Título en el header */
 header h1 {
-  padding: 15px 0 15px 0;
-  float: left;
-  width: 80%;
   margin: 0;
 }
-/* Icono en el header */
-header .icon-header {
+/* Icono en el h1 header */
+header h1 .icon-header {
   font-size: 3rem;
   color: white;
-  float: left;
-  width: 19%;
-  margin-right: 1%;
-  padding-top: 20px;
+  position: relative;
+  top: 12px;
 }
 /* Caja del menu */
 .nav-bar {
   overflow: hidden;
   text-align: center;
+  height: 7%;
 }
 /* Elementos del menu */
 .nav-bar ul a li {
   float: left;
   list-style: none;
-  margin-right: 10px;
+  padding: 10px;
 }
 /* Enlaces del menu */
 .nav-bar ul a {
-  font-family: "Special Gothic Condensed One", sans-serif;
+  /* Fuente de Google Fonts */
+  font-family: "Notable", sans-serif;
   font-weight: 400;
-  font-style: regular;
+  font-style: normal;
   display: inline-block;
   color: black;
+  padding: 10px;
 }
 /* Estilos para cuando ponemos el ratón sobre el enlace */
-.nav-bar ul a:hover {
-  color: navy;
+.nav-bar ul a:hover,
+.nav-bar ul a.active {
+  background-color: lightgray;
+}
+
+/* Estilos del contenido */
+.main {
+  height: 77%;
+  overflow: hidden;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  padding: 20px 15px 20px 15px;
+}
+.main .left-section {
+  float: left;
+  height: 100%;
+  width: 70%;
+}
+.main .left-section article h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.main .left-section article p{
+    text-align: justify;
+    padding-right: 15px;
+    line-height: 1.8;
+}
+.main .right-section {
+  float: left;
+  height: 100%;
+  width: 30%;
+  background: url("../img/cine.PNG");
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer {
-  height: 50px;
+  height: 5%;
   position: absolute;
   bottom: 0;
   right: 0;
+    /* Fuente de Google Fonts */
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer .copyright {
@@ -72,6 +107,8 @@ footer .copyright {
 }
 footer .copyright p {
   text-align: left;
+  font-size: 12px;
+  padding-top: 6px;
 }
 
 footer ul {

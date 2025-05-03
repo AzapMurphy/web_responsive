@@ -13,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Notable&family=Playwrite+AU+SA:wght@100..400&family=Special+Gothic+Condensed+One&display=swap"
-      rel="stylesheet"
-    />
+    href="https://fonts.googleapis.com/css2?family=Notable&family=Playwrite+AU+SA:wght@100..400&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Special+Gothic+Condensed+One&display=swap"
+    rel="stylesheet"
+  />
     <!-- Librería de iconos -->
     <script
       type="module"
@@ -29,10 +29,13 @@
   <body>
     <!--- HEADER (CABECERA DE LA PÁGINA)-->
     <header>
-        <!-- Icono del menú -->
-        <ion-icon name="videocam-outline" class="icon-header"></ion-icon>
+      
         <!-- Título del menú -->
-        <h1>Quienes somos</h1>
+        <h1>
+            <!-- Icono del menú -->
+            <ion-icon name="videocam-outline" class="icon-header"></ion-icon>
+            Light and Magic Arts
+        </h1>
     </header>
     <!--- NAV (MENÚ PRINCIPAL)-->
     <nav class="nav-bar">
@@ -40,21 +43,26 @@
             <a href="index.html"><li>Home</li></a>
             <a href="areas_de_actuacion.html"><li>Areas de actuación</li></a>
             <a href="contacto.html"><li>Contacto</li></a>
-            <a href="quienes_somos.html"><li>Quienes Somos</li></a>
+            <a href="quienes_somos.html" class="active"><li>Quiénes Somos</li></a>
           </ul>
        
     </nav>
     <div class="main">
-      <section>
+      <section class="left-section">
   
-        <article></article>
+        <article>
+            <h1>¿Quiénes somos?</h1>
+            <p>Light and Magic Arts es una productora que se dedica al mundo audiovisual, con una gran experiencia en películas. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.  </p>
+        </article>
        
       </section>
-      <aside></aside>
+      <aside class="right-section">
+    
+      </aside>
     </div>
     <footer>
         <div class="copyright">
-            <p>&copy;Web personal creada para la materia de Lenguage de Marcas <br> CFGS DAM</p>
+            <p>&copy;Web personal creada para la materia de Lenguage de Marcas CFGS DAM</p>
           </div>
           <ul class="redesSociales">
             <li><a href="#"><ion-icon name="mail"></ion-icon></a></li>
