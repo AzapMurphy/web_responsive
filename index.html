@@ -3,38 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <!-- Título de la página -->
+    <title>Light and Magic Arts</title>
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Imagen del Favicon -->
+    <link rel="shortcut icon" href="img/cine-icon.PNG" type="image/x-icon" />
+    <!-- Links de la fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Notable&family=Playwrite+AU+SA:wght@100..400&family=Special+Gothic+Condensed+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Librería de iconos -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <!--- HEADER (CABECERA DE LA PÁGINA)-->
     <header>
-      <div>
-        <h1>SUPUESTO TÍTULO</h1>
-        <h2>SUPUESTO SUBTÍTULO</h2>
-      </div>
+        <!-- Icono del menú -->
+        <ion-icon name="videocam-outline" class="icon-header"></ion-icon>
+        <!-- Título del menú -->
+        <h1>Light and Magic Arts</h1>
     </header>
     <!--- NAV (MENÚ PRINCIPAL)-->
-    <nav>
-      <ul>
-        <li>
-          <a href="#" id=""> Menú </a>
+    <nav class="nav-bar">
           <ul>
             <a href="index.html"><li>Home</li></a>
             <a href="areas_de_actuacion.html"><li>Areas de actuación</li></a>
             <a href="contacto.html"><li>Contacto</li></a>
             <a href="quienes_somos.html"><li>Quienes Somos</li></a>
           </ul>
-        </li>
-      </ul>
+       
     </nav>
     <div class="main">
       <section>
-        <header></header>
+  
         <article></article>
-        <footer></footer>
+       
       </section>
       <aside></aside>
     </div>
-    <footer></footer>
+    <footer>
+        <div class="copyright">
+            <p>&copy;Web personal creada para la materia de Lenguage de Marcas <br> CFGS DAM</p>
+          </div>
+          <ul class="redesSociales">
+            <li><a href="#"><ion-icon name="mail"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          </ul>
+    </footer>
   </body>
 </html>

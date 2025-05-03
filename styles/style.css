@@ -1,0 +1,93 @@
+* {
+  /* Fuente de Google Fonts */
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* Css Inicial para todas las páginas */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+/* Caja del header */
+header {
+  text-align: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+/* Título en el header */
+header h1 {
+  padding: 15px 0 15px 0;
+  float: left;
+  width: 80%;
+  margin: 0;
+}
+/* Icono en el header */
+header .icon-header {
+  font-size: 3rem;
+  color: white;
+  float: left;
+  width: 19%;
+  margin-right: 1%;
+  padding-top: 20px;
+}
+/* Caja del menu */
+.nav-bar {
+  overflow: hidden;
+  text-align: center;
+}
+/* Elementos del menu */
+.nav-bar ul a li {
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+}
+/* Enlaces del menu */
+.nav-bar ul a {
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  display: inline-block;
+  color: black;
+}
+/* Estilos para cuando ponemos el ratón sobre el enlace */
+.nav-bar ul a:hover {
+  color: navy;
+}
+footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+footer .copyright {
+  float: left;
+}
+footer .copyright p {
+  text-align: left;
+}
+
+footer ul {
+  width: auto;
+
+  float: left;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+footer ul li {
+  float: left;
+  list-style: none;
+}
+
+footer ul li ion-icon {
+  font-size: 1.87rem;
+  margin-right: 0.62rem;
+}
