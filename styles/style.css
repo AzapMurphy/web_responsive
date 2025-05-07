@@ -12,7 +12,7 @@ body {
 /* Caja del header */
 header {
   text-align: center;
-  height: 8%;
+  height: 10%;
   background-color: black;
   color: white;
   overflow: hidden;
@@ -36,7 +36,7 @@ header h1 .icon-header {
 .nav-bar {
   overflow: hidden;
   text-align: center;
-  height: 7%;
+  height: 10%;
 }
 /* Elementos del menu */
 .nav-bar ul a li {
@@ -62,11 +62,13 @@ header h1 .icon-header {
 
 /* Estilos del contenido */
 .main {
-  height: 77%;
+  height: 73%;
   overflow: hidden;
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
-  padding: 20px 15px 20px 15px;
+  /* padding: 20px 15px 20px 15px; */
+  padding: 0.5%;
+  width: 99%;
 }
 .main .left-section {
   float: left;
@@ -93,9 +95,9 @@ header h1 .icon-header {
 }
 footer {
   height: 5%;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
-  right: 0;
+  right: 0; */
     /* Fuente de Google Fonts */
     font-family: "Notable", sans-serif;
     font-weight: 400;
@@ -114,19 +116,20 @@ footer .copyright p {
 footer ul {
   width: auto;
 
-  float: left;
+  float: right;
   margin-left: 2rem;
   margin-right: 1rem;
 }
 
 footer ul li {
-  float: left;
+  float: right;
   list-style: none;
 }
 
 footer ul li ion-icon {
   font-size: 1.87rem;
   margin-right: 0.62rem;
+  color: navy;
 }
 /* Estilos en contactos */
 .main section form {
@@ -197,11 +200,76 @@ footer ul li ion-icon {
    font-size: 1.5rem;
    display: inline-block;
   }
+  /* Estilos areas_de_Actuación */
+  .main .areas-wrapper {
+    overflow: hidden;
+    height: 49%;
+    
+  }
+  .main .areas-wrapper {
+    margin-top:0.5%;
+    
+  }
+
+  .main .areas-wrapper .areas-section, .main .areas-wrapper .areas-aside, .main .areas-wrapper .areas-section-dos, .main .areas-wrapper .areas-aside-dos{
+    float:left;
+    width: 49%;
+    height: 100%;
+    
+  }
+  .main .areas-wrapper .areas-section, .main .areas-wrapper .areas-aside-dos {
+    padding-right: 0.5%;
+  }
+  .main .areas-wrapper .areas-aside, .main .areas-wrapper .areas-section-dos {
+    padding-left: 0.5%;
+  }
+
+  .main .areas-section article h1, .main .areas-section-dos article h1{
+    font-size: 43px;
+    padding-bottom: 10px;
+  }
+  .main .areas-section article p, .main .areas-section-dos article p{
+   text-align: justify;
+   text-indent: 15px;
+  }
+  .main .areas-wrapper .areas-aside img{
+    width:100%;
+    display: inline-block;
+  }
+  .main .areas-wrapper .areas-aside-dos img{
+    width:100%;
+    display: inline-block;
+  }
+
 
 /* Media Queries */
 /* ****************************************************************************************************************** */
 /* pantallas  grandes anchos de más de 1300px */
-@media (min-width: 1300px) {}
+@media (min-width: 1300px) {
+  /*Pantalla de quienes somos*/
+  /* header{
+    height: 12%;
+  }
+  header h1{
+    font-size: 2.8rem;
+  }
+  header h1 .icon-header{
+    font-size: 5rem;
+    top:27px;
+  }
+  .nav-bar{
+    height: 9%;
+  }
+  .nav-bar ul a {
+    font-size: 1.3rem;
+  }
+  .main{
+    height: 71%;
+  }
+  footer{
+    height: 8%;
+  } */
+}
 
 /* Tablet en posición vertical */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {}
