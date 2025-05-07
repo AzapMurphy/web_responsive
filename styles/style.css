@@ -68,6 +68,7 @@ header h1 .icon-header {
   font-optical-sizing: auto;
   /* padding: 20px 15px 20px 15px; */
   padding: 0.5%;
+  width: 99%;
 }
 .main .left-section {
   float: left;
@@ -199,6 +200,47 @@ footer ul li ion-icon {
    font-size: 1.5rem;
    display: inline-block;
   }
+  /* Estilos areas_de_Actuación */
+  .main .areas-wrapper {
+    overflow: hidden;
+    height: 49%;
+    
+  }
+  .main .areas-wrapper {
+    margin-top:0.5%;
+    
+  }
+
+  .main .areas-wrapper .areas-section, .main .areas-wrapper .areas-aside, .main .areas-wrapper .areas-section-dos, .main .areas-wrapper .areas-aside-dos{
+    float:left;
+    width: 49%;
+    height: 100%;
+    
+  }
+  .main .areas-wrapper .areas-section, .main .areas-wrapper .areas-aside-dos {
+    padding-right: 0.5%;
+  }
+  .main .areas-wrapper .areas-aside, .main .areas-wrapper .areas-section-dos {
+    padding-left: 0.5%;
+  }
+
+  .main .areas-section article h1, .main .areas-section-dos article h1{
+    font-size: 43px;
+    padding-bottom: 10px;
+  }
+  .main .areas-section article p, .main .areas-section-dos article p{
+   text-align: justify;
+   text-indent: 15px;
+  }
+  .main .areas-wrapper .areas-aside img{
+    width:100%;
+    display: inline-block;
+  }
+  .main .areas-wrapper .areas-aside-dos img{
+    width:100%;
+    display: inline-block;
+  }
+
 
 /* Media Queries */
 /* ****************************************************************************************************************** */
